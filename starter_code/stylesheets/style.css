@@ -8,3 +8,58 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html {
+    width: 100vw;
+    background-color: #540B51;
+}
+@media (width <=768px) {
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content:space-around;
+        gap: 300px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .center {
+
+        display: flex;
+        align-items: center;
+        background-color: #540B51;
+    }
+
+    .icon img {
+        margin: 40px 0px;
+        width: 150px;
+    }
+
+    .purple {
+        background-color: #540B51;
+        margin: 0px;
+    }
+
+    h1 {
+        margin: 0px;
+        padding-top: 20px;
+        color: white;
+        text-align: center;
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    button {
+        background-color: #540B51;
+        border: none;
+    }
+    .free {
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .orange{
+        color:orange;
+    }
+}
